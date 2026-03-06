@@ -7,7 +7,7 @@ using System;
 using System.IO;
 using System.Reflection;
 
-namespace CAD_Rhino_Bridge_Pro
+namespace CADRhinoBridgePro
 {
     public class Plugin : IExtensionApplication
     {
