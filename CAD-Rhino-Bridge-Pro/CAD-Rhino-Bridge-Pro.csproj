@@ -8,6 +8,7 @@
 		<LangVersion>latest</LangVersion>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWindowsForms>true</UseWindowsForms>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 	</PropertyGroup>
 
@@ -27,6 +28,11 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<Reference Include="System.Drawing" />
+		<Reference Include="System.Windows.Forms" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<!-- RhinoCommon References -->
 		<PackageReference Include="RhinoCommon" Version="7.28.23154.13001" />
 		<PackageReference Include="Grasshopper" Version="7.28.23154.13001" />
@@ -40,6 +46,5 @@
 
 	<ItemGroup>
 		<Folder Include="Core\新文件夹\" />
-		<Folder Include="Properties\" />
 	</ItemGroup>
 </Project>
