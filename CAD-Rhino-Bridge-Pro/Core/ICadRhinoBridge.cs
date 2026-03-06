@@ -1,7 +1,7 @@
 ﻿using Rhino.Geometry;
 using System.Collections.Generic;
 
-namespace CAD_Rhino_Bridge_Pro.Core
+namespace CADRhinoBridgePro.Core
 {
     /// <summary>
     /// CAD 与 Rhino 之间的桥梁接口，定义核心功能契约
